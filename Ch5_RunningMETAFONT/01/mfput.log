@@ -1,0 +1,12 @@
+This is METAFONT, Version 2.71828182 (preloaded base=mf 2023.10.16)  14 NOV 2023 00:45
+**\relax
+
+*drawdot (35, 70); showit;
+
+*drawdot (65, 70); showit;
+
+*draw (20, 40) .. (50, 25) .. (80, 40); showit;
+
+*shipit; end.
+[0]
+Output written on mfput.2602gf (1 character, 248 bytes).
