@@ -1,0 +1,15 @@
+mode_setup;
+  em# := 10pt#; cap# := 7pt#;
+  thin# := 1/3pt#; thick# := 5/6pt#;
+  o# := 1/5pt#;
+define_pixels(em, cap);
+define_blacker_pixels(thin, thick);
+define_corrected_pixels(o);
+  curve_sidebar = round 1/18em;
+beginchar("S", 0.8em#, 1.2em#, 0); "A letter S for Io";
+  penpos1(thick, 90 + 10); penpos2(1.25thin, 245); penpos3(thick, 90 + 10);
+  x1l = w - x3l = curve_sidebar; x2 = .5w;
+  y1l = -o; y3r = h + o; y2 = .5[y1, y3];
+  penstroke z1e .. z2e{(-2, 1)} .. z3e;
+  penlabels(1,2,3); 
+endchar;
